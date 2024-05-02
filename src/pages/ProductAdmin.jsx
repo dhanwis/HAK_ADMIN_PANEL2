@@ -42,7 +42,7 @@ function ProductAdmin() {
                     <a class="dropdown-item sort" data-sort="name" href="#">Title</a>
                     <a class="dropdown-item sort" data-sort="email" href="#">Stock</a>
                     <a class="dropdown-item sort" data-sort="phone" href="#">Price</a>
-                    <a class="dropdown-item sort" data-sort="group" href="#">Status</a>
+                    {/* <a class="dropdown-item sort" data-sort="group" href="#">Status</a> */}
                   </div>
                 </div>
                 <div class="btn-group ms-1 check-all-container-checkbox-click">
@@ -159,15 +159,16 @@ function ProductAdmin() {
                           <div class="col-lg-4 d-flex flex-column mb-lg-0 pe-3 d-flex">
                             <div class="text-muted text-small cursor-pointer sort" data-sort="name">NAME</div>
                           </div>
-                          <div class="col-lg-2 d-flex flex-column pe-1 justify-content-center">
+                          <div class="col-lg-4 d-flex flex-column pe-1 justify-content-center">
                             <div class="text-muted text-small cursor-pointer sort" data-sort="email">ADDRESS</div>
                           </div>
-                          <div class="col-lg-3 d-flex flex-column pe-1 justify-content-center">
-                            <div class="text-muted text-small cursor-pointer sort" data-sort="phone">EMAIL</div>
-                          </div>
                           <div class="col-lg-2 d-flex flex-column pe-1 justify-content-center">
-                            <div class="text-muted text-small cursor-pointer sort" data-sort="group">STATUS</div>
+                            <div class="text-muted text-small cursor-pointer sort" data-sort="phone">MOBILE</div>
                           </div>
+                          
+                          {/* <div class="col-lg-2 d-flex flex-column pe-1 justify-content-center">
+                            <div class="text-muted text-small cursor-pointer sort" data-sort="group">STATUS</div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
@@ -188,23 +189,34 @@ function ProductAdmin() {
                             href="Products.Detail.html"
                             class="col-11 col-lg-4 d-flex flex-column mb-lg-0 mb-3 pe-3 d-flex order-1 h-lg-100 justify-content-center"
                           >
-                            Wooden Animal Toys
-                            <div class="text-small text-muted text-truncate position">#2342</div>
+                            Ananya KK
+                            {/* <div class="text-small text-muted text-truncate position"></div> */}
                           </a>
-                          <div class="col-12 col-lg-2 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-3">
-                            <div class="lh-1 text-alternate">2.511</div>
+                          <div class="col-12 col-lg-4 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-3">
+                            <div class="lh-1 text-alternate">kkkkkkkkkkkkkkkkkkkkkkkkk kkkkkkkkkkkkkkkkkkkkkkkkk</div>
                           </div>
-                          <div class="col-12 col-lg-3 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-4">
-                            <div class="lh-1 text-alternate">$ 62.20</div>
+                          <div class="col-12 col-lg-2 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-4">
+                            <div class="lh-1 text-alternate">9876543210</div>
                           </div>
-                          <div class="col-12 col-lg-2 d-flex flex-column pe-1 mb-2 mb-lg-0 align-items-start justify-content-center order-5">
+                          <div class="col-12 col-lg-1 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-4">
+                          <a href="#" class="col-11 col-lg-1 d-flex flex-column mb-lg-0 mb-3 pe-3 d-flex order-1 h-lg-100 justify-content-center">
+                           <i className='fa-solid fa-pen'/>
+                          </a>
+                          </div>
+                          <div class="col-12 col-lg-1 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-4">
+                            <a href="#" class="col-11 col-lg-1 d-flex flex-column mb-lg-0 mb-3 pe-3 d-flex order-1 h-lg-100 justify-content-center">
+                            <i className='fa-solid fa-trash'/>
+                            </a>
+                          </div>
+                         
+                          {/* <div class="col-12 col-lg-2 d-flex flex-column pe-1 mb-2 mb-lg-0 align-items-start justify-content-center order-5">
                             <span class="badge bg-outline-primary group">SALE</span>
-                          </div>
-                          <div class="col-1 d-flex flex-column mb-2 mb-lg-0 align-items-end order-2 order-lg-last justify-content-lg-center">
+                          </div> */}
+                          {/* <div class="col-1 d-flex flex-column mb-2 mb-lg-0 align-items-end order-2 order-lg-last justify-content-lg-center">
                             <label class="form-check mt-2">
                               <input type="checkbox" class="form-check-input pe-none" />
                             </label>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
@@ -212,76 +224,7 @@ function ProductAdmin() {
                 </div>
                 
                 
-               
-               
-               
-               
-                <div class="card mb-2">
-                  <div class="row g-0 h-100 sh-lg-9 position-relative">
-                    <a href="Products.Detail.html" class="col-auto position-relative">
-                      <img src="img/product/small/product-9.webp" alt="product" class="card-img card-img-horizontal sw-11 h-100" />
-                    </a>
-                    <div class="col py-4 py-lg-0">
-                      <div class="ps-5 pe-4 h-100">
-                        <div class="row g-0 h-100 align-content-center">
-                          <a
-                            href="Products.Detail.html"
-                            class="col-11 col-lg-4 d-flex flex-column mb-lg-0 mb-3 pe-3 d-flex order-1 h-lg-100 justify-content-center"
-                          >
-                            XBox Controller
-                            <div class="text-small text-muted text-truncate position">#2611</div>
-                          </a>
-                          <div class="col-12 col-lg-2 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-3">
-                            <div class="lh-1 text-alternate">614</div>
-                          </div>
-                          <div class="col-12 col-lg-3 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-4">
-                            <div class="lh-1 text-alternate">$ 19.15</div>
-                          </div>
-                          <div class="col-12 col-lg-2 d-flex flex-column pe-1 mb-2 mb-lg-0 align-items-start justify-content-center order-5">
-                            <span class="badge bg-outline-secondary group">NEW</span>
-                          </div>
-                          <div class="col-1 d-flex flex-column mb-2 mb-lg-0 align-items-end order-2 order-lg-last justify-content-lg-center">
-                            <label class="form-check mt-2">
-                              <input type="checkbox" class="form-check-input pe-none" />
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card mb-2">
-                  <div class="row g-0 h-100 sh-lg-9 position-relative">
-                    <a href="Products.Detail.html" class="col-auto position-relative">
-                      <img src="img/product/small/product-10.webp" alt="product" class="card-img card-img-horizontal sw-11 h-100" />
-                    </a>
-                    <div class="col py-4 py-lg-0">
-                      <div class="ps-5 pe-4 h-100">
-                        <div class="row g-0 h-100 align-content-center">
-                          <a
-                            href="Products.Detail.html"
-                            class="col-11 col-lg-4 d-flex flex-column mb-lg-0 mb-3 pe-3 d-flex order-1 h-lg-100 justify-content-center"
-                          >
-                            Health and Fitness Smartwatch
-                            <div class="text-small text-muted text-truncate position">#3470</div>
-                          </a>
-                          <div class="col-12 col-lg-2 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-3">
-                            <div class="lh-1 text-alternate">1.852</div>
-                          </div>
-                          <div class="col-12 col-lg-3 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-4">
-                            <div class="lh-1 text-alternate">$ 68.00</div>
-                          </div>
-                          <div class="col-12 col-lg-2 d-flex flex-column pe-1 mb-2 mb-lg-0 align-items-start justify-content-center order-5"></div>
-                          <div class="col-1 d-flex flex-column mb-2 mb-lg-0 align-items-end order-2 order-lg-last justify-content-lg-center">
-                            <label class="form-check mt-2">
-                              <input type="checkbox" class="form-check-input pe-none" />
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+           
                 {/* <!-- Items Container Start --> */}
 
                 {/* <!-- List Items End --> */}
